@@ -18,7 +18,8 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "build": "node compile.js"
+    "build": "node compile.js",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "bulma": "^1.0.4"
