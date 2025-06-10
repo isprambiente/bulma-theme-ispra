@@ -1,7 +1,7 @@
 {
-  "name": "@isprambiente/bulma-theme-ispra",
+  "name": "bulma-theme-ispra",
   "version": "0.0.1",
-  "description": "Tema Bulma per ISPRA",
+  "description": "CSS classes for ISPRA",
   "keywords": [
     "Bulma",
     "bulma",
@@ -26,23 +26,6 @@
   "main": "index.sass",
   "scripts": {
     "build": "node compile.js"
-  },
-  "dependencies": {
-    "braces": "^3.0.3",
-    "bulma-quickview": "^2.1.0",
-    "chokidar": "^4.0.3",
-    "detect-libc": "^1.0.3",
-    "fill-range": "^7.1.1",
-    "immutable": "^5.1.2",
-    "is-extglob": "^2.1.1",
-    "is-glob": "^4.0.3",
-    "is-number": "^7.0.0",
-    "micromatch": "^4.0.8",
-    "node-addon-api": "^7.1.1",
-    "picomatch": "^2.3.1",
-    "readdirp": "^4.1.2",
-    "source-map-js": "^1.2.1",
-    "to-regex-range": "^5.0.1"
   },
   "devDependencies": {
     "bulma": "^1.0.4",
