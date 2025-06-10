@@ -1,6 +1,6 @@
 {
   "name": "@isprambiente/bulma-theme-ispra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tema Bulma per ISPRA",
   "license": "MIT",
   "author": "Francesco Loreti",
@@ -26,5 +26,10 @@
   "devDependencies": {
     "sass": "^1.89.0"
   },
-  "keywords": ["bulma", "theme", "extension", "ispra"]
+  "keywords": [
+    "bulma",
+    "theme",
+    "extension",
+    "ispra"
+  ]
 }
