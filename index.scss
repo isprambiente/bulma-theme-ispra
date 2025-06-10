@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@forward "./src/_dark.scss";
+@forward "./src/_general.scss";
+@forward "./src/_header.scss";
+@forward "./src/_footer.scss";
+@forward "./src/_navbar.scss";
+@forward "./src/_loader.scss";
+@forward "./src/_form.scss";
+
+:root {
+  --bulma-light-h: 342deg;
+  --bulma-light-s: 56%;
+  --bulma-light-l: 34%;
+  --bulma-primary-h: 342deg;
+  --bulma-primary-s: 56%;
+  --bulma-primary-l: 34%;
+  --bulma-primary-dark-h: 347deg;
+  --bulma-primary-dark-s: 70%;
+  --bulma-primary-dark-l: 24%;
+  --footer-background-color: #dbdbdb;
+}
+
+:root[data-theme=dark] {
+  --footer-background-color: var(--bulma-body-background-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --footer-background-color: var(--bulma-body-background-color);
+  }
+}
+
+[data-theme=dark],
+.theme-dark {
+  background-color: var(--footer-background-color);
+}
+
+

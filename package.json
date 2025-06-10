@@ -1,0 +1,33 @@
+{
+  "name": "bulma-theme-ispra",
+  "version": "0.0.1",
+  "description": "CSS classes for ISPRA",
+  "main": "index.sass",
+  "scripts": {
+    "build": "node compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francesco-loreti/bulma-theme-ispra.git"
+  },
+  "keywords": [
+    "Bulma",
+    "bulma",
+    "bulma.io",
+    "Bulma.io",
+    "extension",
+    "theme",
+    "ispra",
+    "bulma-theme-ispra"
+  ],
+  "author": "Wikiki, francesco-loreti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francesco-loreti/bulma-theme-ispra/issues"
+  },
+  "homepage": "https://github.com/francesco-loreti/bulma-theme-ispra#readme",
+  "devDependencies": {
+    "bulma": "^1.0.4",
+    "sass": "^1.89.0"
+  }
+}

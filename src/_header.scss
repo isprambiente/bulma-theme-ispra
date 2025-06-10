@@ -1,0 +1,34 @@
+header {
+  #nav1 {
+    .navbar {
+      min-height: 30px;
+
+      a.navbar-item {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0rem 0.75rem;
+      }
+    }
+  }
+
+  #nav2 {
+    background: var(--bulma-primary);
+    padding: 10px;
+
+    h1 {
+      margin: 0;
+      font-size: 1.4em;
+      line-height: 1.4em;
+      padding: 9px 0;
+    }
+
+    a {
+      color: var(--bulma-primary-100);
+    }
+
+    img {
+      max-height: 83px;
+      vertical-align: middle;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+@use "bulma/sass/utilities/css-variables" as cv;
+
+@include cv.system-theme($name: "dark") {
+  // Inserire le classi da visualizzare in Dark Mode
+}

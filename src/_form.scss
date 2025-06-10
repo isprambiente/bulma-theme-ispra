@@ -1,0 +1,35 @@
+@use 'bulma/sass/components/navbar' as nav;
+
+form {
+  button_to {
+    button {
+      background: none !important;
+      border: none;
+      color: var(--bulma-grey-dark);
+      text-decoration: none;
+      cursor: pointer;
+      .navbar-item {
+        @extend .navbar-item;
+        color: var(--bulma-white-dark);
+        font-size: 0.85rem;
+        span.icon {
+          margin-right: 0.5rem
+        }
+      }
+    }
+  }
+  nav.panel {
+    label.panel-block {
+      input[type="radio"] {
+        margin-right: 5px
+      }
+    }
+  }
+  span.helper {
+    font-size: 0.75rem !important;
+    cursor: default !important;
+  }
+  p.helper {
+    cursor: default;
+  }
+}
