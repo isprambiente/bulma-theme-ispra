@@ -1,7 +1,4 @@
-.sass-cache/
-*.css.map
 node_modules
-bulma-theme-ispra*.tgz
+bun.lock
+package-lock.json
 npm-debug.log
-
-.jekyll-cache/
