@@ -1,34 +1,30 @@
 {
   "name": "@isprambiente/bulma-theme-ispra",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Tema Bulma per ISPRA",
-  "keywords": [
-    "Bulma",
-    "bulma",
-    "bulma.io",
-    "Bulma.io",
-    "extension",
-    "theme",
-    "ispra",
-    "bulma-theme-ispra"
-  ],
-  "homepage": "https://github.com/francesco-loreti/bulma-theme-ispra#readme",
-  "bugs": {
-    "url": "https://github.com/francesco-loreti/bulma-theme-ispra/issues"
-  },
+  "license": "MIT",
+  "author": "Francesco Loreti",
+  "homepage": "https://github.com/isprambiente/bulma-theme-ispra#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/francesco-loreti/bulma-theme-ispra.git"
+    "url": "git+https://github.com/isprambiente/bulma-theme-ispra.git"
   },
-  "license": "MIT",
-  "author": "Wikiki, francesco-loreti",
-  "type": "commonjs",
-  "main": "index.sass",
+  "bugs": {
+    "url": "https://github.com/isprambiente/bulma-theme-ispra/issues"
+  },
+  "funding": "https://github.com/sponsors/isprambiente",
+  "style": "index.sass",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
     "build": "node compile.js"
   },
+  "dependencies": {
+    "bulma": "^1.0.4"
+  },
   "devDependencies": {
-    "bulma": "^1.0.4",
     "sass": "^1.89.0"
-  }
+  },
+  "keywords": ["bulma", "theme", "extension", "ispra"]
 }
