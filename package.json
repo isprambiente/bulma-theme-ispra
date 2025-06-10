@@ -1,10 +1,10 @@
 {
   "name": "@isprambiente/bulma-theme-ispra",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tema Bulma per ISPRA",
-  "license": "MIT",
+  "license": "MIT License",
   "author": "Francesco Loreti",
-  "homepage": "https://github.com/isprambiente/bulma-theme-ispra#readme",
+  "homepage": "https://github.com/isprambiente/bulma-theme-ispra",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isprambiente/bulma-theme-ispra.git"
