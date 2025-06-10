@@ -1,4 +1,10 @@
-/* Tema Bulma per ISPRA - Versione: 1.0.3 */
+/*!
+  Tema Bulma per ISPRA v1.0.4
+  Francesco Loreti
+  MIT License
+  https://github.com/isprambiente/bulma-theme-ispra
+*/
+
 @charset "UTF-8";
 .is-sticky {
   position: sticky;
