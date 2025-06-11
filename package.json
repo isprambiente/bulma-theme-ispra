@@ -22,7 +22,10 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "bulma": "^1.0.4"
+    "bulma": "^1.0.4",
+    "@creativebulma/bulma-tooltip": "francesco-loreti/bulma-tooltip",
+    "@samlam140330/bulma-switch": "^1.0.2",
+    "bulma-quickview": "francesco-loreti/bulma-quickview"
   },
   "devDependencies": {
     "sass": "^1.89.0"

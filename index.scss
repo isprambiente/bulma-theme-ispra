@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+@forward 'bulma-quickview/index';
+@forward '@creativebulma/bulma-tooltip/src/sass/index.scss';
+@forward '@samlam140330/bulma-switch/src/sass/index.scss';
+
 @forward "./src/_general.scss";
 @forward "./src/_colors.scss";
 @forward "./src/_breadcrumb.scss";
