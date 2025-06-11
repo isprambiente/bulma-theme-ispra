@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-@forward 'bulma-quickview/index';
-@forward '@creativebulma/bulma-tooltip/src/sass/index.scss';
-@forward '@samlam140330/bulma-switch/src/sass/index.scss';
-
 @forward "./src/_general.scss";
 @forward "./src/_colors.scss";
 @forward "./src/_breadcrumb.scss";
@@ -13,6 +9,10 @@
 @forward "./src/_loader.scss";
 @forward "./src/_form.scss";
 @forward "./src/_dark.scss";
+
+@use 'bulma-quickview/index' as quickview;
+@use '@creativebulma/bulma-tooltip/src/sass/index.scss' as tooltip;
+@use '@samlam140330/bulma-switch/src/sass/index.scss' as switch;
 
 :root {
   --bulma-light-h: 342deg;
