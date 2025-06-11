@@ -1,6 +1,6 @@
 footer {
   .has-background-primary-dark {
-    background: var(--bulma-primary) !important;
+    background: var(--bulma-primary);
   }
   #footer-first {
     background-color: var(--footer-background-color);
@@ -15,7 +15,7 @@ footer {
     margin-bottom: 4px;
   }
   #footer-first .column.menu .has-text-primary-dark {
-    color: var(--bulma-primary-dark) !important;
+    color: var(--bulma-primary-dark);
   }
   #footer-first .column.menu ul.menu-list li span.fa-li {
     font-size: 0.7rem;

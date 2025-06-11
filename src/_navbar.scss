@@ -16,7 +16,7 @@ $nav3-navbar-dropdown-width: 17rem;
 
 #nav3 {
   background-color: $nav3-background-color;
-  font-size: $nav3-font-size !important;
+  font-size: $nav3-font-size;
 
   nav.navbar {
     background: $nav3-background-color;
@@ -39,7 +39,7 @@ $nav3-navbar-dropdown-width: 17rem;
 
       a.button {
         &:not(.is-textless) {
-          width: 6rem !important;
+          width: 6rem;
 
           &:after {
             content: "Menù";
@@ -58,8 +58,8 @@ $nav3-navbar-dropdown-width: 17rem;
       }
 
       &.no-item:hover {
-        background: $nav3-background-color !important;
-        cursor: default !important;
+        background: $nav3-background-color;
+        cursor: default;
       }
 
       span.icon {
@@ -72,13 +72,13 @@ $nav3-navbar-dropdown-width: 17rem;
       }
 
       select.theme {
-        background-color: transparent !important;
-        border: 0px !important;
-        box-shadow: none !important;
-        color: $nav3-font-color !important;
+        background-color: transparent;
+        border: 0px;
+        box-shadow: none;
+        color: $nav3-font-color;
 
         option {
-          color: $nav3-body-color !important;
+          color: $nav3-body-color;
         }
       }
     }
@@ -115,7 +115,7 @@ $nav3-navbar-dropdown-width: 17rem;
       background: $nav3-background-color;
 
       &:not(.is-arrowless)::after {
-        border-color: $nav3-font-color !important;
+        border-color: $nav3-font-color;
       }
 
       &:hover {
@@ -135,7 +135,7 @@ $nav3-navbar-dropdown-width: 17rem;
   }
 
   .nested.dropdown {
-    font-size: $nav3-dropdown-submenu-font-size !important;
+    font-size: $nav3-dropdown-submenu-font-size;
 
     &:hover {
       background: $nav3-tab-active-background-color;
@@ -169,10 +169,10 @@ $nav3-navbar-dropdown-width: 17rem;
         background: $nav3-background-color;
         margin-top: 0.4rem;
         .navbar-item {
-          color: $nav3-font-color !important;
+          color: $nav3-font-color;
         }
         .dropdown-item {
-          font-size: $nav3-dropdown-submenu-font-size !important;
+          font-size: $nav3-dropdown-submenu-font-size;
           color: $nav3-font-color;
           background: $nav3-background-color;
 
@@ -208,7 +208,7 @@ $nav3-navbar-dropdown-width: 17rem;
       background: var(--bulma-primary-dark);
     }
     .navbar-item {
-      background: transparent !important;
+      background: transparent;
     }
   }
 }

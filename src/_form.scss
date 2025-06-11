@@ -3,7 +3,7 @@
 form {
   button_to {
     button {
-      background: none !important;
+      background: none;
       border: none;
       color: var(--bulma-grey-dark);
       text-decoration: none;
@@ -26,8 +26,8 @@ form {
     }
   }
   span.helper {
-    font-size: 0.75rem !important;
-    cursor: default !important;
+    font-size: 0.75rem ;
+    cursor: default;
   }
   p.helper {
     cursor: default;

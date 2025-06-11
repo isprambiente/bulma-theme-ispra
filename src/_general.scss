@@ -3,23 +3,36 @@
   top: 0;
   z-index: 1;
 }
-.has-background-transparent {
-  background-color: transparent !important
-}
-nav.breadcrumb {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 0.7rem 0.5rem 2rem !important;
-  li {
-    &:before {
-      padding-right: 0.5rem;
-    }
-    a, a:link, a:visited, a:hover {
-      color: #444;
-    }
-  }
-}
+
 .turbolinks-progress-bar {
   height: 5px;
   background: var(--bulma-danger);
+}
+
+.is-borderless {
+  border: 0px;
+}
+
+label.is-required {
+  &:after {
+    content: '*';
+    margin-left: 0.1rem;
+    color: var(--bulma-danger);
+    &:hover {
+      content: 'required';
+      cursor: 'help';
+    }
+  }
+}
+
+
+.is-capitalized-first {
+  text-transform: lowercase;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.is-small-caps {
+  font-variant: small-caps;
 }

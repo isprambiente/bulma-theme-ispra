@@ -1,0 +1,13 @@
+nav.breadcrumb {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0.7rem 0.5rem 2rem;
+  li {
+    &:before {
+      padding-right: 0.5rem;
+    }
+    a, a:link, a:visited, a:hover {
+      color: var(--bulma-grey);
+    }
+  }
+}
