@@ -10,9 +10,14 @@
 @forward "./src/_form.scss";
 @forward "./src/_dark.scss";
 
-@use 'bulma-quickview/index' as quickview;
-@use '@creativebulma/bulma-tooltip/src/sass/index.scss' as tooltip;
-@use '@samlam140330/bulma-switch/src/sass/index.scss' as switch;
+@forward 'bulma-quickview';
+@forward '@creativebulma/bulma-tooltip/src/sass';
+@forward '@samlam140330/bulma-switch/src/sass';
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+}
 
 :root {
   --bulma-light-h: 342deg;
@@ -24,7 +29,30 @@
   --bulma-primary-dark-h: 347deg;
   --bulma-primary-dark-s: 70%;
   --bulma-primary-dark-l: 24%;
-  --footer-background-color: #dbdbdb;
+  --bulma-success-h: 93deg;
+  --bulma-success-s: 56%;
+  --bulma-success-l: 34%;
+  --bulma-link-h: 217deg;
+  --bulma-link-s: 61%;
+  --bulma-link-l: 57%;
+  --bulma-warning-h: 38deg;
+  --bulma-warning-s: 100%;
+  --bulma-warning-l: 66%;
+  --bulma-danger-h: 347deg;
+  --bulma-danger-s: 57%;
+  --bulma-danger-l: 37%;
+  --bulma-danger-dark-h: 347deg;
+  --bulma-danger-dark-s: 70%;
+  --bulma-danger-dark-l: 24%;
+  --bulma-grey-lighter: #dbdbdb;
+  --bulma-tabs-boxed-link-active-background-color: var(--bulma-link);
+  --bulma-tabs-link-active-color: var(--bulma-white);
+  --bulma-breadcrumb-item-color: #3f3e3eda;
+  --bulma-breadcrumb-item-active-color: #7a7878da;
+  --bulma-breadcrumb-item-separator-color: #3f3e3eda;
+  --bulma-dropdown-menu-min-width: 17rem;
+  --bulma-panel-heading-line-height: .5rem;
+  --footer-background-color: var(--bulma-grey-lighter);
 }
 
 :root[data-theme=dark] {
